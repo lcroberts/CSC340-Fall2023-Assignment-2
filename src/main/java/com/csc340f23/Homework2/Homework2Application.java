@@ -29,7 +29,7 @@ public class Homework2Application {
 			String temp = root.findValue("temperature").asText();
 			String windSpeed = root.findValue("windspeed").asText();
 
-			System.out.printf("Right now the temperature in Greensboro is %s degrees fahrenheit with winds of %s miles per hour",
+			System.out.printf("Right now the temperature in Greensboro is %s degrees fahrenheit with winds of %s miles per hour.\n",
 					temp, windSpeed);
 
 		} catch (JsonProcessingException ex) {
